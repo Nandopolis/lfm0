@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>lfm0</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+		<nature>com.arm.cmsis.pack.project.RteNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>RTE/CMSIS/libarm_cortexM0l_math.a</name>
+			<type>1</type>
+			<locationURI>$%7Bcmsis_pack_root%7D/ARM/CMSIS/5.4.0/CMSIS/Lib/GCC/libarm_cortexM0l_math.a</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
